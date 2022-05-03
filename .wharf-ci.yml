@@ -1,0 +1,8 @@
+
+myStage:
+  myStep:
+    container:
+      image: ubuntu:20.04
+      cmds:
+        - echo "Now is:"
+        - date
