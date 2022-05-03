@@ -4,5 +4,8 @@ myStage:
     container:
       image: ubuntu:20.04
       cmds:
-        - echo "Now is:"
-        - date
+        - |
+          for i in {1..1000}; do
+            echo $i
+            sleep 0.1s
+          done
