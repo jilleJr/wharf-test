@@ -6,7 +6,7 @@ myStage:
       shell: bash
       cmds:
         - |
-          for i in {1..1000}; do
+          for i in {1..10000}; do
             echo $i
-            sleep 0.1s
+            sleep 0.001s
           done
