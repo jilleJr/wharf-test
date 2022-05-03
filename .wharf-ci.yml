@@ -3,6 +3,7 @@ myStage:
   myStep:
     container:
       image: ubuntu:20.04
+      shell: bash
       cmds:
         - |
           for i in {1..1000}; do
