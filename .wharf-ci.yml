@@ -6,7 +6,12 @@ myStage:
       shell: bash
       cmds:
         - |
-          for i in {1..1000}; do
-            echo $i
-            sleep 0.1s
+          echo Start
+          for x in {1..50}; do
+            for i in {1..20}; do
+              echo $i
+              sleep 0.1s
+            done
+            sleep 5s
           done
+          echo Done
